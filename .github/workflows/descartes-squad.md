@@ -32,8 +32,7 @@ network:
     - rust
 
 engine:
-  id: claude
-  model: claude-3-5-haiku-latest
+  id: copilot
 
 checkout:
   fetch: ["*"]
