@@ -33,6 +33,7 @@ network:
 
 engine:
   id: claude
+  model: claude-haiku-3.5
 
 checkout:
   fetch: ["*"]
