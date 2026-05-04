@@ -32,7 +32,7 @@ network:
     - rust
 
 engine:
-  id: copilot
+  id: claude
   model: GPT-5.2-Codex
 
 checkout:
