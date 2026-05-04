@@ -33,7 +33,6 @@ network:
 
 engine:
   id: claude
-  model: GPT-5.2-Codex
 
 checkout:
   fetch: ["*"]
