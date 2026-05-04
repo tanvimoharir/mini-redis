@@ -33,6 +33,7 @@ network:
 
 engine:
   id: copilot
+  model: GPT-5.2-Codex
 
 checkout:
   fetch: ["*"]
