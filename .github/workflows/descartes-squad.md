@@ -58,6 +58,17 @@ safe-outputs:
     target: "*"
     title-prefix: "[DesCartes Squad] "
     max: 1
+  create-pull-request:
+    title-prefix: "[DesCartes Squad] "
+    labels: [automation, descartes-squad]
+    max: 2
+    protected-files: allowed
+    draft: false
+  push-to-pull-request-branch:
+    target: "*"
+    title-prefix: "[DesCartes Squad] "
+    protected-files: allowed
+    max: 4
 
 timeout-minutes: 120
 
