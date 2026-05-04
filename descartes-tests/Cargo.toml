@@ -1,0 +1,26 @@
+[package]
+name = "mini-redis-descartes-tests"
+version = "0.1.0"
+edition = "2021"
+license = "MIT"
+publish = false
+description = "DesCartes concurrency exploration tests for mini-redis"
+
+[lib]
+name = "mini_redis_descartes_tests"
+path = "src/lib.rs"
+
+[dependencies]
+# DesCartes crates (from GitHub)
+descartes-core = { git = "https://github.com/rupakm/DesCartes", version = "0.1.1" }
+descartes-tokio = { git = "https://github.com/rupakm/DesCartes", version = "0.1.1" }
+descartes-explore = { git = "https://github.com/rupakm/DesCartes", version = "0.1.1", features = ["tokio"] }
+
+# For Bytes type (used by mini-redis)
+bytes = "1"
+
+# Tokio (for select! macro — works with DesCartes futures)
+tokio = { version = "1", features = ["macros"] }
+
+[dev-dependencies]
+rand = "0.8"

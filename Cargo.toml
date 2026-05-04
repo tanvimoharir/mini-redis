@@ -1,3 +1,6 @@
+[workspace]
+members = [".", "descartes-tests"]
+
 [package]
 authors = ["Carl Lerche <me@carllerche.com>"]
 edition = "2018"
