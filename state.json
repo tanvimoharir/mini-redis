@@ -1,0 +1,30 @@
+{
+  "run_at": "2026-05-05T06:22:44.350Z",
+  "selected_tasks": [1, 8],
+  "targets": [
+    {
+      "id": "server-connection-handling",
+      "path": "src/server.rs",
+      "phase": "Research",
+      "notes": "high task count, select!, semaphores, broadcast"
+    },
+    {
+      "id": "db-expiry-purge",
+      "path": "src/db.rs",
+      "phase": "Research",
+      "notes": "background purge, timers, Notify"
+    },
+    {
+      "id": "buffered-client-messaging",
+      "path": "src/clients/buffered_client.rs",
+      "phase": "Research",
+      "notes": "mpsc + oneshot; request/response pairing"
+    },
+    {
+      "id": "graceful-shutdown-broadcast",
+      "path": "src/shutdown.rs",
+      "phase": "Research",
+      "notes": "broadcast-based shutdown; ensure receivers observe"
+    }
+  ]
+}
