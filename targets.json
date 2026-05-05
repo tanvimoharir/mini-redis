@@ -1,0 +1,1 @@
+{"targets":[{"name":"publish_subscribe","paths":["src/db.rs","src/cmd/publish.rs","src/cmd/subscribe.rs"],"phase":"spec_extracted","notes":"Selected for DesCartes spec extraction in current run"}]}
