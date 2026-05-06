@@ -32,8 +32,7 @@ network:
     - rust
 
 engine:
-  id: copilot
-  model: gpt-5-mini
+  id: codex
 
 checkout:
   fetch: ["*"]
