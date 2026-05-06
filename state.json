@@ -5,8 +5,10 @@
     {
       "id": "server-connection-handling",
       "path": "src/server.rs",
-      "phase": "research",
-      "notes": "select!, tokio::spawn; prioritize for spec extraction"
+      "phase": "test",
+      "test_file": "descartes-tests/tests/server_connection_handling.rs",
+      "seeds_executed": 50,
+      "notes": "Spec extracted; DesCartes test added and executed (50 seeds)"
     },
     {
       "id": "db-purge-expiry",
