@@ -1,1 +1,20 @@
-{"targets":[{"name":"publish_subscribe","paths":["src/db.rs","src/cmd/publish.rs","src/cmd/subscribe.rs"],"phase":"spec_extracted","notes":"Selected for DesCartes spec extraction in current run"}]}
+[
+  {
+    "id": "db-expiry",
+    "path": "src/db.rs",
+    "phase": "research",
+    "notes": "Background purge task, Notify, expirations BTreeSet. High priority."
+  },
+  {
+    "id": "pubsub-dynamic",
+    "path": "src/cmd/subscribe.rs",
+    "phase": "research",
+    "notes": "Broadcast channels, dynamic subscribe/unsubscribe. High priority."
+  },
+  {
+    "id": "server-shutdown",
+    "path": "src/server.rs",
+    "phase": "research",
+    "notes": "Graceful shutdown, semaphore permits, mpsc completion detection. Medium priority."
+  }
+]
