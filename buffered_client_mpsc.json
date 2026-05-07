@@ -1,0 +1,11 @@
+{
+  "targets": [
+    {
+      "name": "buffered-client-mpsc",
+      "path": "src/clients/buffered_client.rs",
+      "phase": 3,
+      "test": "descartes-tests/tests/buffered_client_mpsc.rs",
+      "notes": "Test added modeling mpsc buffered client; 100 seeds executed OK"
+    }
+  ]
+}
