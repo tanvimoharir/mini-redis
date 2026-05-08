@@ -1,1 +1,3 @@
 server-connection-handling,descartes-exploration/specs/server-connection-handling.md,phase:2
+scanned_targets: server,db,buffered-client
+spec_created: 2026-05-08T17:02:15Z
