@@ -1,26 +1,25 @@
 {
-  "run_at": "2026-05-06T10:08:29Z",
-  "selected_tasks": [1, 7],
+  "run_at": "2026-05-09T01:52:42Z",
+  "selected_tasks": [1, 2],
   "targets": [
     {
       "id": "server-connection-handling",
       "path": "src/server.rs",
-      "phase": "test",
-      "test_file": "descartes-tests/tests/server_connection_handling.rs",
-      "seeds_executed": 50,
-      "notes": "Spec extracted; DesCartes test added and executed (50 seeds)"
+      "phase": "research",
+      "notes": "Not primary this run; previously partially modeled"
     },
     {
       "id": "db-purge-expiry",
       "path": "src/db.rs",
-      "phase": "research",
-      "notes": "background purge task + timers; model timer vs ops races"
+      "phase": "spec_written",
+      "notes": "Spec for purge_expired_tasks written to descartes-exploration/specs/purge_expired_tasks.md"
     },
     {
       "id": "buffered-client-mpsc",
       "path": "src/clients/buffered_client.rs",
       "phase": "research",
-      "notes": "mpsc channel close/backpressure; model message loss scenarios"
+      "notes": "Deferred"
     }
-  ]
+  ],
+  "last_run":"purge_expired_tasks"
 }
