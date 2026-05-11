@@ -1,1 +1,9 @@
-{"targets":[{"name":"pubsub-broadcast","path":"src/cmd/publish.rs,src/cmd/subscribe.rs","phase":"Research"},{"name":"db-expiration","path":"src/db.rs","phase":"Research"},{"name":"buffered-client","path":"src/clients/buffered_client.rs","phase":"Research"}],"bugs":[],"last_run":"2026-05-06T01:49:42Z"}
+{"run_timestamp": "2026-05-11T02:02:00Z",
+  "targets": [
+    {"id": "db-purge-expiry", "path": "src/db.rs", "phase": "spec_extracted"},
+    {"id": "server-connection-handling", "path": "src/server.rs", "phase": "identified"},
+    {"id": "buffered-client-mpsc", "path": "src/clients/buffered_client.rs", "phase": "identified"}
+  ],
+  "bugs": [],
+  "last_run": "2026-05-11T02:02:00Z"
+}
