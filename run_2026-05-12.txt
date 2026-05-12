@@ -1,0 +1,1 @@
+Run 2026-05-12: created spec descartes-exploration/specs/db_purge_expiry.md and AUDIT.md. No test logs present. Primary tasks: Research (existing), Spec extraction (db_purge_expiry).
