@@ -1,0 +1,4 @@
+Run 2026-05-13T10:14:30Z
+Primary tasks executed: Research (existing RESEARCH.md inspected), Spec extraction for db-purge-expiry (descartes-exploration/specs/db-purge-expiry.md)
+Targets: db-purge-expiry prioritized for DesCartes testing
+Evidence files referenced: src/db.rs (Notify, purge spawn), src/cmd/publish.rs (broadcast), src/cmd/subscribe.rs (broadcast)
